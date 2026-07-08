@@ -1,2 +1,2 @@
 # WT_project
-MY second
+MY second project
