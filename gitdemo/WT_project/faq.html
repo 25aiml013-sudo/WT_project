@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Hub - FAQ</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 40px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #003366;
+        }
+
+        .faq {
+            background-color: white;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+
+        .faq h3 {
+            color: #0066cc;
+            margin-bottom: 8px;
+        }
+
+        .faq p {
+            margin: 0;
+        }
+        .dark
+        {
+            background: black;
+            color:rgb(0, 122, 229);
+        }
+    </style>
+    <!-- <script>
+        function theme()
+        {
+            document.body.classList.toggle("dark");
+        }
+    </script> -->
+</head>
+
+<body>
+
+    <h1>Student Hub - FAQ</h1>
+    <nav>
+        <button onclick="theme()">Theme</button>
+    </nav>
+    <h2>Collapsible FAQ</h2>
+    <button onclick="faq()">What is portal call time</button>
+    <div class="answer " id="ans">
+        It is 9 am to 4pm.
+    </div>
+
+    <!-- <div class="faq">
+        <h3>1. What is Student Hub?</h3>
+        <p>Student Hub is a platform that provides information about college events and activities.</p>
+    </div>
+
+    <div class="faq">
+        <h3>2. Who can participate?</h3>
+        <p>All students of the college can participate in the events.</p>
+    </div>
+
+    <div class="faq">
+        <h3>3. Is registration required?</h3>
+        <p>Yes, students should register before the event.</p>
+    </div>
+
+    <div class="faq">
+        <h3>4. Is there any registration fee?</h3>
+        <p>No, participation is completely free.</p>
+    </div>
+
+    <div class="faq">
+        <h3>5. Where will the event be held?</h3>
+        <p>The event will be conducted in the College Auditorium.</p>
+    </div>
+
+    <div class="faq">
+        <h3>6. How can I contact the organizers?</h3>
+        <p>You can contact the Student Hub coordinator or visit the college office.</p>
+    </div> -->
+     <script>
+        function theme()
+        {
+            document.body.classList.toggle("dark");
+        }
+        function faq()
+        {
+            var a=document.getElementById("ans");
+            if(a.style.display=="block")
+            a.style.display="none";
+        else
+        {
+            a.style.display="block";
+        }
+        }
+    </script>
+
+</body>
+</html>

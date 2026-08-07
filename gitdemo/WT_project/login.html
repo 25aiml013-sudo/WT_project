@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Hub - Login</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8f0fe;
+        }
+
+        .login-box {
+            width: 300px;
+            margin: 100px auto;
+            background-color: white;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #003366;
+        }
+
+        input {
+            width: 90%;
+            padding: 8px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #004c99;
+        }
+    </style>
+    <script>
+        function f()
+        {
+            var a=document.forms["myForm"];
+            var u=a.uname.value;
+            var p=a.pword.value;
+            if(u=="admin" && p=="123")
+        {
+            alert("valid");
+
+        }
+        else
+        {
+            alert("invalid");
+        }
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="login-box">
+        <h2>Student Hub Login</h2>
+
+        <form name="myForm" action="registration.html" method="get">
+             <label>Username</label><br>
+            <input type="text" name="uname">
+            <label>Password</label><br>
+            <input type="text" name="pword">
+             <label>Sign in</label><br>
+            <input type="button" onClick="f()">
+            <!-- <label>Username</label><br>
+            <input type="text" placeholder="Enter Username"><br>
+
+            <label>Password</label><br>
+            <input type="password" placeholder="Enter Password"><br><br>
+
+            <button type="submit">Login</button> -->
+        </form>
+
+        <p>Don't have an account? <a href="#">Register</a></p>
+    </div>
+
+</body>
+</html>

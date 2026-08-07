@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Hub</title>
+
+    <style>
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        .logo {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .logo img {
+            width: 250px;
+            height: 300px;
+            border-radius: 10px;
+        }
+
+        nav {
+            display: flex;
+            gap: 25px;
+            background: skyblue;
+            padding: 15px;
+            justify-content: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+        }
+
+
+        section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+
+        section div {
+            height: 250px;
+            background-color: lightgray;
+            text-align: center;
+            border-radius: 10px;
+        }
+
+
+        #Box1 {
+            background-image: url("5.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #Box2 {
+            background-image: url("2.png");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #Box3 {
+            background-image: url("3.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        #Box4 {
+            background-image: url("4.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+
+        .content {
+            padding: 20px;
+        }
+
+
+        .footer {
+            background: skyblue;
+            text-align: center;
+            padding: 15px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <h1>Student Hub</h1>
+
+
+    <!-- Center Image -->
+    <div class="logo">
+        <img src="1.png" alt="Student Hub Image">
+    </div>
+
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Event.html">Event</a>
+        <a href="FAQ.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+        <a href="Login.html">Login</a>
+        <a href="register.html">Register</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="admin.html">Admin</a>
+        <a href="Profile.html">Profile</a>
+        <a href="Dashboard.html">Dashboard</a>
+    </nav>
+
+
+</header>
+
+
+
+<section>
+
+    <div id="Box1"></div>
+    <div id="Box2"></div>
+    <div id="Box3"></div>
+    <div id="Box4"></div>
+
+</section>
+
+
+
+<div class="content">
+
+    <h2>Welcome to StudentHub</h2>
+
+    <p>
+        This website helps students find events, campus information,
+        study materials and other student services.
+    </p>
+
+
+    <h3>What you can do</h3>
+
+    <ul>
+        <li><a href="Event.html">See Campus Events</a></li>
+        <li><a href="Register.html">Create an Account</a></li>
+        <li><a href="Dashboard.html">Open Your Dashboard</a></li>
+    </ul>
+
+</div>
+
+
+
+<div class="footer">
+    © 2026 Student Hub | All Rights Reserved
+</div>
+
+
+</body>
+</html>
